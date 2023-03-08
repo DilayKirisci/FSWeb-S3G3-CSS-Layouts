@@ -1,11 +1,131 @@
 <!DOCTYPE html>
 <html lang="tr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Döküman</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
+    <title>Dilay Isik Kirisic</title>
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
-    <h1> Projeler </h1>
+    <div class="container">
+        <header>
+            <div class="nav-icon">
+                <img src="./pictures/dddynamite (2).svg" alt="">
+            </div>
+            <div class="nav" id="nav">
+                <div class="nav-items">
+                    <a href="#">
+                        <div class="nav-icon"><i class="fa-solid fa-house"></i></div>
+                        <div class="nav-text">Home</div>
+                    </a>
+                </div>
+                <div class="nav-items">
+                    <a href="#">
+                        <div class="nav-icon"><i class="fa-solid fa-address-card"></i></div>
+                        <div class="nav-text">About</div>
+                    </a>
+                </div>
+                <div class="nav-items">
+                    <a href="#">
+                        <div class="nav-icon"><i class="fa-solid fa-list-check"></i></div>
+                        <div class="nav-text">Projects</div>
+                    </a>
+                </div>
+                <div class="nav-items">
+                    <a href="#">
+                        <div class="nav-icon"><i class="fa-solid fa-file"></i></div>
+                        <div class="nav-text">Resume</div>
+                    </a>
+                </div>
+                <div class="day-night">
+                    <i class="fas fa-sun"></i>
+                    <label class="switch">
+                        <input type="checkbox" checked>
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+            </div>
+        </header>
+        <div class="about" id="about">
+            <div class="about-text">
+                <h2>Who I <span>am</span>
+                </h2> <br>
+                <h3>Hi, I am <span>Dilay</span> from Turkey!
+                    <br><br> I am a full stack web developer
+                </h3><br>
+
+                <h3>Apart from coding,<br> some other activities that I love to do!</h3> <br>
+
+                <ul>
+                    <li>Working out</li>
+                    <li>Cycling</li>
+                    <li>Travelling</li>
+                </ul>
+            </div>
+            <div class="about-img align-right slide-in">
+                <img src="./pictures/undraw_working_remotely_re_6b3a.svg" alt="">
+            </div>
+
+        </div>
+        <div class="projects" id="projects">
+            <h1>My Projects</h1>
+            <div class="project">
+                <div class="project-text">
+                    <h2>Bouncing Balls</h2> <br>
+                    <h3>Vanilla Script and Canvas</h3> <br>
+                    <a href="#">Repository</a>
+                </div>
+                <div class="project-img">
+                    <img src="./pictures/Screenshot 2023-03-08 at 20.10.29.png" alt="">
+                </div>
+            </div>
+
+            <div class="project">
+                <div class="project-img">
+                    <img src="/pictures/countdown.png" alt="">
+                </div>
+                <div class="project-text">
+                    <h2>The Final CountDown!</h2> <br>
+                    <h3>Javascript</h3> <br>
+                    <a href="#">Repository</a>
+                </div>
+            </div>
+
+            <div class="project">
+                <div class="project-text">
+                    <h2>Rock-Paper-Scissors-Spock</h2> <br>
+                    <h3>Javascript</h3> <br>
+                    <a href="#">Repository</a>
+                </div>
+                <div class="project-img">
+                    <img src="/pictures/game.png" alt="">
+                </div>
+            </div>
+            <div class="project">
+                <div class="project-img">
+                    <img src="/pictures/scroll.png" alt="">
+                </div>
+                <div class="project-text">
+                    <h2>The Infinite Scroll</h2> <br>
+                    <h3>Javascript</h3> <br>
+                    <a href="#">Repository</a>
+                </div>
+            </div>
+
+        </div>
+        <div class="contact">
+
+        </div>
+    </div>
+    <script src="app.js"></script>
 </body>
+
 </html>
